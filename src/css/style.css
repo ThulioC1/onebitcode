@@ -1,0 +1,46 @@
+
+body {
+    background-image:url(../img/espaco.jpg)
+}
+
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.cabecalho h1 {
+    color: aliceblue;
+    background-color: blue;
+}
+
+.cabecalho p {
+    color: aliceblue;
+    background-color: blue;
+
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.itens_lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    color: aliceblue;
+}
+
+.galaxias {
+    color: aliceblue;
+}
+
