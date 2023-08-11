@@ -20,13 +20,11 @@ body {
 
 .cabecalho h1 {
     color: aliceblue;
-    background-color: blue;
+    
 }
 
 .cabecalho p {
-    color: aliceblue;
-    background-color: blue;
-
+    color: aliceblue;   
 }
 
 .lista {
