@@ -1,8 +1,9 @@
 
 body {
     font-family:'Outfit', sans-serif;
-    color: aliceblue;
+    color: rgb(224, 227, 229);
     background-image:url(src/img/Fundo2.png);
+    background-color: rgb(31, 31, 216);
     background-repeat: repeat;
     background-size: cover;
     background-position: center center;
@@ -20,27 +21,47 @@ body {
 
 .cabecalho h1 {
     color: aliceblue;
+    font-size: 80px;
     
 }
 
 .cabecalho p {
-    color: aliceblue;   
-}
-
-.lista {
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
 }
 
 .itens_lista {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     color: aliceblue;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.sistema_solar img {
+    width: 300px;
+    height: auto;
+    margin-left: 120px;
+}
+
+.foguete img {
+    width: 500px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.galaxia img {
+    width: 500px;
+    height: auto;
+}
+
+.itens_lista h2 {
+    margin-left: 150px;
+    font-size: 30px;
+    color: rgb(222, 231, 238);
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .galaxias {
