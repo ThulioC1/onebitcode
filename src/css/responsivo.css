@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+    .sistema_solar img,
+    .foguete img,
+    .galaxia img,
+    .itens_lista {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex: 0 0 calc(80% - 20px); /* Altera a largura dos itens para 50% em telas menores */
+        max-width: calc(80% - 20px); /* Limita a largura máxima dos itens para 50% */
+    }
+    .foguete img, .galaxia img {
+        margin-left: auto;
+    }
+
+    .itens_lista h2 {
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .cabecalho p {
+        display: flex;
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 580px) {
+    .sistema_solar img,
+    .foguete img,
+    .galaxia img,
+    .itens_lista {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex: 0 0 calc(75% - 20px); /* Altera a largura dos itens para 100% em telas muito pequenas */
+        max-width: calc(75% - 20px); /* Limita a largura máxima dos itens para 100% */
+    }
+    .foguete img, .galaxia img {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .itens_lista h2 {
+        white-space: nowrap;
+    }
+
+    .cabecalho p {
+        display: flex;
+        text-align: center;
+    }
+}
